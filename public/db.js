@@ -41,7 +41,7 @@ const checkDatabase = () => {
 
     getAll.onsuccess = () => {
         if (getAll.result.length > 0) {
-            axios.post('/api/records', getAll.result)
+            axios.post('/api/transaction/bulk', getAll.result)
                 .then(() => {
                     //if success, open a transaction on pending db
                     const transaction = db.transaction(['pending'], 'readwrite')
