@@ -1,0 +1,28 @@
+{
+  "name": "OnlineOfflineBudgetTracker",
+  "version": "1.0.0",
+  "description": "> Track your budget whether you are online or offline. Make sure that you don't lose your data with this tracking app.\r ## Table of Contents\r * [Installation](#installation)\r * [Usage](#usage)\r * [Credits](#credits)\r * [Link](#link)\r * [Gif](#gif)\r * [Questions](#questions)\r ## Installation\r #### Please follow this command to install npm dependencies:\r > npm init -y\r > npm i\r ## Usage\r > \r ## Credits\r > I credit Trilogy/UCI for providing the front-end of this application. I provided the back-end routes and database connections, then finally the deployment on Heroku.\r ## Link\r > [Deployed Link](put link here \"Heroku App\")\r ## Gif\r ![gif](put gif link here \"gif\")\r ## Questions\r > Please send any inquiries or concerns through [acerjak](https://api.github.com/users/acerjak \"GitHub Profile\") or at amandacerjak@gmail.com.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acerjak/OnlineOfflineBudgetTracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acerjak/OnlineOfflineBudgetTracker/issues"
+  },
+  "homepage": "https://github.com/acerjak/OnlineOfflineBudgetTracker#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "lite-server": "^2.5.4",
+    "mongoose": "^5.9.19",
+    "morgan": "^1.10.0"
+  }
+}
